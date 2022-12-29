@@ -1,0 +1,24 @@
+.row_title {
+  display: flex;
+  padding: 40px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  text-align: center;
+  justify-content: center;
+  color: white;
+
+}
+
+table {
+  width: 100%;
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container_body {
+  padding: 20px;
+}
+.pointer{
+  cursor: pointer;
+}

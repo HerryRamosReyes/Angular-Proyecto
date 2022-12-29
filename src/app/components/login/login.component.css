@@ -1,0 +1,63 @@
+.body{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  background-image:  url(fondo1.jpg) ;
+  }
+h1{
+  color: white;
+}
+.login{
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+}
+
+button.ingreso{  
+  color: white;
+  margin-left: 80px;
+   
+  font-weight: 0; 
+  font-size: 16px; 
+  color: #ffffff; 
+  background: linear-gradient(90deg, #0066CC 0%, #d62828 100%); 
+  padding: 10px 47px; 
+  border: none; 
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 22px 50px;
+  transition : 327ms;
+  transform: translateY(0);
+  }
+  
+button:hover{ 
+  transition : 327ms;
+  padding: 10px 50px;
+  transform : translateY(-0px);
+  background: linear-gradient(90deg, #0066CC 0%, #d62828 100%);
+  color: #ffffff;
+  border: none;
+  }
+ 
+  
+  
+
+
+img{
+  margin-top: 10px;
+}
+.datos{
+    padding-bottom: 20px;
+}
+
+.ancho{
+  width: 80%;
+}
+.ingresarbtn{
+  height: 50px;
+}
+.spinner{
+  margin: 0 auto;
+}

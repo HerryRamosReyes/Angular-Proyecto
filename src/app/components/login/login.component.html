@@ -1,0 +1,29 @@
+<div class="body">
+  <div class="login">
+    <mat-card *ngIf="!loading">
+      <mat-card-header class="datos">
+        <mat-card-subtitle *ngIf="acceso==true">usuario: Miguel / contraseña: 12345</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+        <button class="ingreso" mat-button (click)="entrada()">Datos</button>
+      </mat-card-actions>
+    </mat-card>
+    <mat-spinner diameter="50" *ngIf="loading" class="spinner"></mat-spinner>
+
+    <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="ingresar()">
+      <img src="https://static.vecteezy.com/system/resources/previews/013/166/517/original/3d-shield-protection-icon-or-3d-account-password-protection-concept-icon-or-user-password-protection-png.png" width="70%" alt="">
+      <h1>Login</h1>
+      <mat-form-field class="ancho" appearance="fill">
+        <mat-label>Usuario</mat-label>
+        <input matInput autocomplete="off" formControlName="usuario">
+      </mat-form-field>
+      <mat-form-field class="ancho" appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput autocomplete="off" type="password" formControlName="contraseña">
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="primary" [disabled]="form.invalid"
+        class="ancho ingresarbtn">Ingresar</button>
+    </form>
+  </div>
+</div>
+

@@ -1,0 +1,23 @@
+.body{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+h1{
+  color: coral;
+}
+.login{
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+}
+.ancho{
+  width: 80%;
+}
+.enviarbtn{
+  height: 50px;
+}
